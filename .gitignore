@@ -1,0 +1,16 @@
+.venv/
+runs/
+librelane/runs/
+logs/
+sim/*.vcd
+sim/xsim/
+xsim.dir/
+.Xil/
+*.jou
+*.log
+*.pb
+*.vvp
+webtalk*
+.claude/settings.local.json
+.env
+__pycache__/

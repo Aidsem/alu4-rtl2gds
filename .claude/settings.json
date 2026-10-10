@@ -1,0 +1,6 @@
+{
+  "permissions": {
+    "allow": ["Bash(iverilog:*)", "Bash(vvp:*)", "Bash(yosys:*)", "Bash(git status)", "Bash(git diff:*)", "Bash(rtk:*)"],
+    "deny": ["Bash(rm -rf:*)"]
+  }
+}

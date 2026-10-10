@@ -1,0 +1,11 @@
+{
+    "DESIGN_NAME": "alu4",
+    "VERILOG_FILES": ["dir::../src/alu4.v"],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+    "PNR_SDC_FILE": "dir::alu4.sdc",
+    "SIGNOFF_SDC_FILE": "dir::alu4.sdc",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": [0, 0, 150, 150],
+    "PL_TARGET_DENSITY_PCT": 50
+}
