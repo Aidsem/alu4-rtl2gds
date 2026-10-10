@@ -2,6 +2,7 @@
 // Latency: operands applied before clock edge k appear on outputs after edge k+1.
 // Flags: c = carry (ADD) / borrow (SUB, 1 when A < B unsigned) / bit shifted out (SHL, SHR),
 //        z = (y == 0), n = y[3], v = signed overflow (ADD, SUB only; 0 otherwise).
+`timescale 1ns/1ps
 module alu4 (
     input  wire       clk,
     input  wire       rst_n,   // async, active low; clears every register

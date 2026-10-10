@@ -1,0 +1,4 @@
+{
+    "verilog.linting.iverilog.verilogHDL.standard": "Verilog-2001",
+    "verilog.linting.iverilog.arguments": "-y src"
+}
